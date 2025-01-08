@@ -12,7 +12,7 @@ struct ContentView: View {
     
     let model = GenerativeModel(name: "gemini-pro", apiKey: APIKey.default)
     @State var userPrompt = ""
-    @State var response = "How can I help you today?"
+    @State var response: LocalizedStringKey = "How can I help you today?"
     @State var isLoading = false
     
     var body: some View {
@@ -25,7 +25,7 @@ struct ContentView: View {
             ZStack {
                 ScrollView {
                     Text(response)
-                        .font(.title)
+                        .font(.body)
                 }
                 if isLoading {
                     ProgressView()
@@ -54,7 +54,7 @@ struct ContentView: View {
             do {
                 let result = try await model.generateContent(userPrompt)
                 isLoading = false
-                response = result.text ?? "No response"
+                response = LocalizedStringKey(result.text ?? "No response")
                 userPrompt = ""
             } catch {
                 response = "Something went wrong\n\(error.localizedDescription)"

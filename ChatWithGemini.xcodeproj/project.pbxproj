@@ -17,7 +17,6 @@
 		CE0E35312C2ABAF600DFE06C /* GoogleGenerativeAI in Frameworks */ = {isa = PBXBuildFile; productRef = CE0E35302C2ABAF600DFE06C /* GoogleGenerativeAI */; };
 		CEA5171C2C3BEB24009C6666 /* GenerativeAI-info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CEA5171B2C3BEB24009C6666 /* GenerativeAI-info.plist */; };
 		CEA5171E2C3BEB54009C6666 /* APIKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA5171D2C3BEB54009C6666 /* APIKey.swift */; };
-		CEA517212C3D2D28009C6666 /* IONgroup-ukwdcr-dc1-CA.cer in Resources */ = {isa = PBXBuildFile; fileRef = CEA517202C3D2D28009C6666 /* IONgroup-ukwdcr-dc1-CA.cer */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,7 +50,6 @@
 		CEA5171B2C3BEB24009C6666 /* GenerativeAI-info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GenerativeAI-info.plist"; sourceTree = "<group>"; };
 		CEA5171D2C3BEB54009C6666 /* APIKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIKey.swift; sourceTree = "<group>"; };
 		CEA5171F2C3C1AA1009C6666 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
-		CEA517202C3D2D28009C6666 /* IONgroup-ukwdcr-dc1-CA.cer */ = {isa = PBXFileReference; lastKnownFileType = file; path = "IONgroup-ukwdcr-dc1-CA.cer"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,7 +81,6 @@
 		CE0E34F92C2AAB7A00DFE06C = {
 			isa = PBXGroup;
 			children = (
-				CEA517202C3D2D28009C6666 /* IONgroup-ukwdcr-dc1-CA.cer */,
 				CE0E35042C2AAB7A00DFE06C /* ChatWithGemini */,
 				CE0E35152C2AAB7F00DFE06C /* ChatWithGeminiTests */,
 				CE0E351F2C2AAB7F00DFE06C /* ChatWithGeminiUITests */,
@@ -250,7 +247,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CEA517212C3D2D28009C6666 /* IONgroup-ukwdcr-dc1-CA.cer in Resources */,
 				CE0E350D2C2AAB7E00DFE06C /* Preview Assets.xcassets in Resources */,
 				CEA5171C2C3BEB24009C6666 /* GenerativeAI-info.plist in Resources */,
 				CE0E350A2C2AAB7E00DFE06C /* Assets.xcassets in Resources */,
